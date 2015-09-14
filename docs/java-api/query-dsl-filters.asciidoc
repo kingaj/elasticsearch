@@ -66,7 +66,8 @@ See {ref}/query-dsl-exists-filter.html[Exists Filter].
 
 [source,java]
 --------------------------------------------------
-FilterBuilder filter = existsFilter("user");    <1>
+
+ExistsFilterBuilder existsFilterBuilder=FilterBuilders.existsFilter("user");    <1>
 --------------------------------------------------
 <1> field
 
